@@ -1,11 +1,9 @@
 import AcmeLogo from "@/app/ui/acme-logo";
 import styles from "@/app/ui/home.module.css";
-import { Lusitana } from "next/font/google";
 import Image from "next/image";
-
-const lusitana = Lusitana({ weight: "400", subsets: ["latin"] });
-
 import Link from "next/link";
+import { lusitana } from "./ui/fonts";
+
 export default function Page() {
   return (
     <main className="flex min-h-screen flex-col p-6">
